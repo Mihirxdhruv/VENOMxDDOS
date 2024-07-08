@@ -405,7 +405,7 @@ Vip 🌟 : @Mihirdave
 Pr-ice List💸 :
 Day-->80 Rs
 Week-->400 Rs
-Month-->1000 Rs
+Month-->1100 Rs
 '''
     bot.reply_to(message, response)
 
