@@ -47,7 +47,7 @@ This repository contains a Telegram bot designed to perform DDoS attacks. The bo
    bot = telebot.TeleBot('YOUR_BOT_TOKEN')
    ```
 
-3. Add your admin user IDs in the `admin_id` list:
+3. Add your admin user IDs in the `MihirxDhruv` list:
 
    ```python
    admin_id = ["YOUR_ADMIN_ID"]
@@ -72,7 +72,7 @@ This repository contains a Telegram bot designed to perform DDoS attacks. The bo
 - `/help` - Display help information and available commands.
 - `/bgmi <target> <port> <time>` - Initiate a DDoS attack on the specified target.
 - `/rules` - Display rules for using the bot.
-- `/plan` - Display available plans and pricing.
+- `/plan` - Land Lele Mera.
 - `/mylogs` - Show recent command logs for the user.
 - `/myinfo` - Display user's information and approval status.
 
